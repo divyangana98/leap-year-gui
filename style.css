@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
+:root {
+    --text-color:#4C1D95;
+    --box-color:#8B5CF6;
+}
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
     margin:0px;
+    color: var(--text-color);
 }
 
 section div {
@@ -11,41 +17,89 @@ section div {
 
 #container {
     display: flex;
-    /* max-height:100%;
-    max-width: 100%; */
-    width:80%;
+     width:80%;
     margin: auto;
     margin-top: 5rem;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 2rem;
+    flex-wrap: wrap;
     
     
 }
  #left{
     max-width: 500px;
     width: 500px;
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 2rem; */
     height:auto;
-    /* overflow:hidden; */
+    
 }
 
 img {
     width:500px;
-    
     padding:1rem;
     max-width: 100%;
     max-height: 100%;
 }
 #right{
    padding:0rem 1rem 1rem 1rem;
-   
+   place-content: center;
 
 }
 
 #right h1{
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
+    margin-bottom: 0px;
     
 }
+#name{
+    font-size: larger;
+    /* font-weight:bold; */
+    
+}
+.input-div{
+    text-align: center;
+}
+
+.name-input {
+    text-align: center;
+    margin: 1rem;
+    border: 2px solid var(--box-color);
+    border-radius: 1rem;
+    height:5vh;
+}
+.dob-input {
+    margin: 1rem;
+    border: 2px solid var(--box-color);
+    border-radius: 1rem;
+    height:5vh;
+    width:180px;
+}
+
+.button {
+    text-align: center;
+}
+
+#btn-submit{
+    margin: 1rem;
+    border: 2px solid var(--box-color);
+    border-radius: 1rem;
+    height:5vh;
+    width:180px;
+    background-color: var(--box-color);
+    color:white;
+    font-size: large;
+}
+
+.output{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color:var(--text-color);
+}
+    
+    
+    
+    
+    
+
 
