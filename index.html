@@ -17,8 +17,7 @@
             <div id="right">
                 <div>
                     <h1>Is your birth year a leap year?</h1>
-                    <!-- <label id="name">Enter your name</label> -->
-                    <div class="input-div">
+                   <div class="input-div">
                         <label id="name">Enter your name:</label>
                         <input type="text" name="userName" class="name-input" id="username">
                     </div>
@@ -29,9 +28,12 @@
                     <div class="button">
                         <button id="btn-submit">Submit</button>
                     </div>
-                    <!-- <div class="output">
-                        <p><span id="output-username"></span>Your birthday is a leap year</p>
-                    </div> -->
+                    <div class="output" id="output-right" style="display:none">
+                        <p>Hey <span id="output-username"></span>! your birthday is a leap year 😇</p>
+                    </div>
+                    <div class="output" id="output-wrong"  style="display:none">
+                        <p>Hey <span id="op-username"></span>! your birth year is not a leap year.</p>
+                    </div>
                 </div>
             </div>
         </section>

@@ -53,9 +53,8 @@ img {
 }
 #name{
     font-size: larger;
-    /* font-weight:bold; */
-    
 }
+
 .input-div{
     text-align: center;
 }
@@ -63,17 +62,22 @@ img {
 .name-input {
     text-align: center;
     margin: 1rem;
-    border: 2px solid var(--box-color);
+    border: 2px solid  #4F4485;
     border-radius: 1rem;
     height:5vh;
+    background-color:#D1B7DE;
 }
 .dob-input {
     margin: 1rem;
-    border: 2px solid var(--box-color);
+    border: 2px solid #4F4485;
     border-radius: 1rem;
     height:5vh;
     width:180px;
+    background-color:#D1B7DE;
+    
+    
 }
+
 
 .button {
     text-align: center;
@@ -81,13 +85,15 @@ img {
 
 #btn-submit{
     margin: 1rem;
-    border: 2px solid var(--box-color);
+    border: 2px solid #4F4485;
     border-radius: 1rem;
     height:5vh;
     width:180px;
-    background-color: var(--box-color);
+    background-color: #4F4485;
     color:white;
+    cursor: pointer;
     font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .output{
