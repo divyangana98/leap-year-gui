@@ -17,14 +17,15 @@ section div {
 
 #container {
     display: flex;
+    flex-direction: column;
      width:80%;
     margin: auto;
     margin-top: 5rem;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 2rem;
     flex-wrap: wrap;
-    
-    
+    margin-bottom: 5rem;
+    place-content: center;
 }
  #left{
     max-width: 500px;
@@ -38,6 +39,7 @@ img {
     padding:1rem;
     max-width: 100%;
     max-height: 100%;
+    /* display: block; */
 }
 #right{
    padding:0rem 1rem 1rem 1rem;
@@ -48,7 +50,7 @@ img {
 #right h1{
     text-align: center;
     padding: 1rem;
-    margin-bottom: 0px;
+    margin: 0px;
     
 }
 #name{
@@ -61,14 +63,14 @@ img {
 
 .name-input {
     text-align: center;
-    margin: 1rem;
+    margin: 0.5rem;
     border: 2px solid  #4F4485;
     border-radius: 1rem;
     height:5vh;
     background-color:#D1B7DE;
 }
 .dob-input {
-    margin: 1rem;
+    margin: 0.5rem;
     border: 2px solid #4F4485;
     border-radius: 1rem;
     height:5vh;
