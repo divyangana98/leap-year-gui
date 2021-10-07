@@ -69,6 +69,7 @@ img {
     height:5vh;
     background-color:#D1B7DE;
 }
+
 .dob-input {
     margin: 0.5rem;
     border: 2px solid #4F4485;
@@ -76,10 +77,7 @@ img {
     height:5vh;
     width:180px;
     background-color:#D1B7DE;
-    
-    
 }
-
 
 .button {
     text-align: center;
@@ -89,7 +87,7 @@ img {
     margin: 1rem;
     border: 2px solid #4F4485;
     border-radius: 1rem;
-    height:5vh;
+    height:6vh;
     width:180px;
     background-color: #4F4485;
     color:white;
@@ -104,10 +102,3 @@ img {
     font-weight: bold;
     color:var(--text-color);
 }
-    
-    
-    
-    
-    
-
-
